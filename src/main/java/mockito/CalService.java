@@ -9,7 +9,16 @@ public class CalService {
 	}
 
 	public int addNumbers(int x, int y) {
-		return cal.add(x, y);
+		System.out.println("hello");
+		reply();
+		int result=cal.add(x, y);
+		System.out.println("hi");
+		return result;
 	}
+	
+	public void reply() {
+		System.out.println("im ok");
+	}
+	
 	
 }
